@@ -2,7 +2,7 @@
 
 export const RevenueCard = ({title,amount,orderCount}) => {
     return(
-    <div className="bg-sky-700 rounded shadow-sm w-80  cursor-pointer text-white hover:bg-red-500">
+    <div className="bg-sky-400 rounded shadow-sm w-80  cursor-pointer text-white hover:bg-red-500">
           <div className="pl-2 flex">
             {title}
             <div>
@@ -25,7 +25,7 @@ export const RevenueCard = ({title,amount,orderCount}) => {
                  </div>
             </div>
           </div>
-          <div className="bg-sky-800 pl-2 rounded justify-items-start cursor-pointer text-white">warning</div>
+          <div className="bg-sky-500 pl-2 rounded justify-items-start cursor-pointer text-white">warning</div>
     </div>
     )
 } 
